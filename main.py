@@ -6,8 +6,8 @@ import uvicorn
 
 labels = {
     0: 'Hoax',
-    1: 'Not Hoax',
-    3: 'Not Data'
+    1: 'Fakta',
+    3: 'Data Tidak Ditemukan'
 }
 
 app = FastAPI()
