@@ -27,7 +27,7 @@ def process_text(text: str):
     text_tfidf = tfidf.transform(text_vec)
     return text_tfidf
 
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('fakenews_model.pkl', 'rb'))
 
 
 @app.get("/")
